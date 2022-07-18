@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  /* background-color: darkgrey; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  padding: 10px 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoobc {
+  width: 230px;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonsHeader {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.buttonsHeader:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imgssport {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  /* background-color: aquamarine; */
+}
+
+.card {
+  width: 300px;
+  /* background-color: cornflowerblue; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+  border: 10px solid black;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.cardlateral {
+  font-size: 20px;
+  background-color: dimgray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgslado {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.imgslado:hover {
+  border: 1px solid gainsboro;
+  transition: 0.5s;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  padding: 10px 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-to-top {
+  font-size: 30px;
+  background-color: white;
+}
